@@ -386,7 +386,7 @@ export default function Home() {
           <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
             <StarBadge text="Design and Webflow Agency" />
 
-            <h1 className="mb-6 text-4xl font-medium leading-tight tracking-tight text-white md:text-5xl lg:text-6xl">
+            <h1 className="mb-6 bg-gradient-to-r from-white/40 via-white to-white/40 bg-clip-text text-4xl font-medium leading-tight tracking-tight text-transparent md:text-5xl lg:text-6xl">
               Webflow websites that convert and scale for high-growth B2B
             </h1>
 
@@ -399,13 +399,16 @@ export default function Home() {
             <div className="mb-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
                 href="#"
-                className="rounded-md bg-white px-7 py-3 text-sm font-medium text-bg-dark transition-opacity hover:opacity-90"
+                className="rounded-xl p-[2px]"
+                style={{ backgroundImage: 'linear-gradient(5deg, #9B59B6, #FFB6C1)' }}
               >
-                Book a Call
+                <span className="block rounded-[10px] bg-white px-7 py-3 text-sm font-medium text-bg-dark transition-opacity hover:opacity-90">
+                  Book a Call
+                </span>
               </a>
               <a
                 href="#"
-                className="flex items-center gap-2 rounded-md border border-white/10 px-7 py-3 text-sm font-medium text-white transition-colors hover:border-white/20"
+                className="flex items-center gap-2 px-7 py-3 text-sm font-medium text-white"
               >
                 See Work
                 <svg
