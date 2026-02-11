@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \" import sys, json for line in sys.stdin: obj = json.loads\\(line\\) if obj.get\\(''role''\\) == ''user'': for part in obj.get\\(''content'', []\\): if isinstance\\(part, dict\\) and part.get\\(''type''\\) == ''text'': text = part[''text''] if len\\(text\\) > 500: print\\(f''USER MESSAGE \\(len={len\\(text\\)}\\): {text[:200]}...''\\) else: print\\(f''USER MESSAGE: {text}''\\) \")",
+      "Bash(python3:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_evaluate",
+      "Bash(npx tsc:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "playwright",
+    "sanity"
+  ]
+}

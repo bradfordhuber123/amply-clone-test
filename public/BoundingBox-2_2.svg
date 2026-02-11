@@ -1,0 +1,13 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="BoundingBox">
+<path id="Vector" d="M1.5 1.5V3.23323L9.375 11.0328H14.625L22.5 3.23323V1.5H1.5ZM9.375 12.1006V22.5L14.625 19.0335V12.1006H9.375Z" fill="url(#paint0_linear_3976_7057)"/>
+<path id="Vector 3576" d="M10 4L14 8" stroke="black" stroke-width="1.4" stroke-linecap="round"/>
+<path id="Vector 3577" d="M14 4L10 8" stroke="black" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_3976_7057" x1="2.0608" y1="2.0608" x2="22.57" y2="22.57" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0.6"/>
+</linearGradient>
+</defs>
+</svg>

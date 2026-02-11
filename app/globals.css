@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --bg-dark: #070609;
+  --bg-darker: #040406;
+  --bg-darkest: #060609;
+  --bg-footer: #0c0b11;
+  --bg-light: #efeaf6;
+  --text-white: #ffffff;
+  --text-dark: #060609;
+  --text-muted: #808080;
+  --text-muted-light: #a6a6a6;
+  --purple: #8a56dc;
+  --pink: #fb9da5;
+}
+
+@theme inline {
+  --color-bg-dark: var(--bg-dark);
+  --color-bg-darker: var(--bg-darker);
+  --color-bg-darkest: var(--bg-darkest);
+  --color-bg-footer: var(--bg-footer);
+  --color-bg-light: var(--bg-light);
+  --color-text-white: var(--text-white);
+  --color-text-dark: var(--text-dark);
+  --color-text-muted: var(--text-muted);
+  --color-text-muted-light: var(--text-muted-light);
+  --color-purple: var(--purple);
+  --color-pink: var(--pink);
+  --font-sans: var(--font-manrope);
+}
+
+body {
+  background: var(--bg-dark);
+  color: var(--text-muted);
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse 30s linear infinite;
+}
+
+.marquee-fade {
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+}

@@ -1,0 +1,24 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_5127_138513)">
+<foreignObject x="1" y="0" width="12" height="12"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(0.5px);clip-path:url(#bgblur_0_5127_138513_clip_path);height:100%;width:100%"></div></foreignObject><circle data-figma-bg-blur-radius="1" cx="7" cy="6" r="5" fill="white" fill-opacity="0.6"/>
+<circle cx="7" cy="6" r="3" fill="url(#paint0_radial_5127_138513)"/>
+</g>
+<defs>
+<filter id="filter0_d_5127_138513" x="0" y="0" width="14" height="14" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="1"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5127_138513"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5127_138513" result="shape"/>
+</filter>
+<clipPath id="bgblur_0_5127_138513_clip_path"><circle transform="translate(-1 0)" cx="7" cy="6" r="5"/>
+</clipPath><radialGradient id="paint0_radial_5127_138513" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(3.82352 3.3354) rotate(45) scale(20.4645 262.437)">
+<stop stop-color="#9898F0"/>
+<stop offset="0.1835" stop-color="#708FEB"/>
+<stop offset="0.364955" stop-color="#3585D4"/>
+</radialGradient>
+</defs>
+</svg>
