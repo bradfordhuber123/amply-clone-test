@@ -475,11 +475,11 @@ export default function Home() {
 
             <div className="grid items-stretch gap-6 md:grid-cols-[3fr_2fr]">
               {/* Left: Quote + Photo card */}
-              <div className="relative overflow-hidden rounded-2xl border border-white/5 bg-white/[0.02]">
+              <div className="relative overflow-hidden rounded-2xl border border-white/5 bg-[#181118]">
                 <img
-                  src={CHRIS_DOTS}
+                  src="/dots-bg.avif"
                   alt=""
-                  className="pointer-events-none absolute right-0 top-0 h-full w-1/2 object-cover opacity-20"
+                  className="pointer-events-none absolute inset-0 h-full w-full object-cover"
                 />
                 <div className="relative z-10 flex h-full flex-col justify-between p-8 md:p-10 md:pr-[45%]">
                   <div>
@@ -491,7 +491,7 @@ export default function Home() {
                     <img
                       src={QUOTE_ICON}
                       alt=""
-                      className="mb-6 h-6 w-6 opacity-40"
+                      className="mb-6 h-6 w-6 brightness-0 invert opacity-30"
                     />
                     <p className="mb-8 text-sm leading-relaxed text-white/60 md:text-base">
                       Amply knocked it out of the park with our new website. Working
