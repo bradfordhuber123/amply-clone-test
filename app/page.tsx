@@ -350,9 +350,12 @@ export default function Home() {
 
             <a
               href="#"
-              className="rounded-md bg-white px-6 py-2.5 text-sm font-medium text-bg-dark transition-opacity hover:opacity-90"
+              className="rounded-xl p-[2px]"
+              style={{ backgroundImage: 'linear-gradient(5deg, #9B59B6, #FFB6C1)' }}
             >
-              Book a Call
+              <span className="block rounded-[10px] bg-white px-6 py-2.5 text-sm font-medium text-bg-dark transition-opacity hover:opacity-90">
+                Book a Call
+              </span>
             </a>
           </div>
         </div>
@@ -900,9 +903,12 @@ export default function Home() {
               </p>
               <a
                 href="#"
-                className="rounded-md bg-white px-7 py-3 text-sm font-medium text-bg-dark transition-opacity hover:opacity-90"
+                className="rounded-xl p-[2px]"
+                style={{ backgroundImage: 'linear-gradient(5deg, #9B59B6, #FFB6C1)' }}
               >
-                Book a Call
+                <span className="block rounded-[10px] bg-white px-7 py-3 text-sm font-medium text-bg-dark transition-opacity hover:opacity-90">
+                  Book a Call
+                </span>
               </a>
             </div>
           </div>
