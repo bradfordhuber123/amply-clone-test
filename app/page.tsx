@@ -469,32 +469,39 @@ export default function Home() {
         {/* ===== TRUSTED BY INDUSTRY LEADERS ===== */}
         <section className="relative overflow-hidden bg-bg-dark py-20 md:py-28">
           <div className="mx-auto max-w-6xl px-6">
-            <h3 className="mb-12 text-center text-2xl font-medium text-white md:text-3xl">
+            <h3 className="mb-12 text-center text-3xl font-medium text-white md:text-5xl">
               Trusted by industry leaders
             </h3>
 
-            <div className="relative grid items-center gap-8 md:grid-cols-2">
-              {/* Left: Quote */}
-              <div className="relative rounded-2xl border border-white/5 bg-white/[0.02] p-8">
+            <div className="grid items-stretch gap-6 md:grid-cols-[3fr_2fr]">
+              {/* Left: Quote + Photo card */}
+              <div className="relative overflow-hidden rounded-2xl border border-white/5 bg-white/[0.02]">
                 <img
                   src={CHRIS_DOTS}
                   alt=""
-                  className="pointer-events-none absolute right-0 top-0 h-32 opacity-20"
+                  className="pointer-events-none absolute right-0 top-0 h-full w-1/2 object-cover opacity-20"
                 />
-                <img
-                  src={PASSETTO_LOGO}
-                  alt="Passetto"
-                  className="mb-6 h-6 opacity-60"
-                />
-                <p className="mb-8 text-sm leading-relaxed text-white/70 md:text-base">
-                  Amply knocked it out of the park with our new website. Working
-                  with them was easy, and they just got us. They helped us switch
-                  from Wordpress to Webflow and it&apos;s been a total
-                  game-changer in driving traffic, telling our story, and
-                  converting visitors into high-quality sales meetings.
-                  They&apos;re the real deal!
-                </p>
-                <div className="flex items-center gap-3">
+                <div className="relative z-10 flex h-full flex-col justify-between p-8 md:p-10 md:pr-[45%]">
+                  <div>
+                    <img
+                      src={PASSETTO_LOGO}
+                      alt="Passetto"
+                      className="mb-10 h-7"
+                    />
+                    <img
+                      src={QUOTE_ICON}
+                      alt=""
+                      className="mb-6 h-6 w-6 opacity-40"
+                    />
+                    <p className="mb-8 text-sm leading-relaxed text-white/60 md:text-base">
+                      Amply knocked it out of the park with our new website. Working
+                      with them was easy, and they just got us. They helped us switch
+                      from Wordpress to Webflow and it&apos;s been a total
+                      game-changer in driving traffic, telling our story, and
+                      converting visitors into high-quality sales meetings.
+                      They&apos;re the real deal!
+                    </p>
+                  </div>
                   <div>
                     <div className="text-sm font-medium text-white">
                       Chris Walker
@@ -502,19 +509,20 @@ export default function Home() {
                     <div className="text-xs text-white/40">Founder/CEO</div>
                   </div>
                 </div>
-              </div>
-
-              {/* Right: Image */}
-              <div className="relative">
+                {/* Chris Walker photo on the right side */}
                 <img
                   src={CHRIS_WALKER}
                   alt="Chris Walker"
-                  className="h-auto w-full rounded-2xl object-cover"
+                  className="absolute bottom-0 right-0 hidden h-full w-[42%] object-contain object-bottom md:block"
                 />
+              </div>
+
+              {/* Right: Website screenshot */}
+              <div className="overflow-hidden rounded-2xl border border-white/5 bg-white/[0.02]">
                 <img
                   src={CHRIS_FRAME}
-                  alt=""
-                  className="absolute -bottom-4 -right-4 hidden w-64 lg:block"
+                  alt="Passetto website"
+                  className="h-full w-full object-cover object-top"
                 />
               </div>
             </div>
