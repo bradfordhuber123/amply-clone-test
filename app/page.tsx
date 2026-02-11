@@ -460,7 +460,7 @@ export default function Home() {
           <img
             src={CURSOR_BG}
             alt=""
-            className="pointer-events-none absolute bottom-20 right-4 hidden w-48 lg:block"
+            className="pointer-events-none absolute bottom-0 left-1/2 hidden w-full -translate-x-1/2 object-contain lg:block"
           />
         </section>
 
