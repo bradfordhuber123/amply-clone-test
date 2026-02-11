@@ -375,7 +375,7 @@ export default function Home() {
           <img
             src={HERO_BG}
             alt=""
-            className="pointer-events-none absolute bottom-0 left-1/2 w-full max-w-5xl -translate-x-1/2 object-contain"
+            className="pointer-events-none absolute bottom-0 left-1/2 w-full -translate-x-1/2 object-contain"
           />
           <img
             src={HERO_BEAM}
