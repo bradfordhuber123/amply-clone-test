@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 
 const CDN = "https://cdn.prod.website-files.com/6764524f1a49aef4f46affb6";
 const CDN2 = "https://cdn.prod.website-files.com/677a0ee1c4d0c3a0dc5ba81b";
@@ -14,7 +15,6 @@ const VIDEO_ICON = `${CDN}/6784b6065653051425c66d2f_video-icon.svg`;
 const CURSOR_BG = `${CDN}/67bca84134f178d312777cbe_bg%20cursos.avif`;
 
 const CHRIS_WALKER = `${CDN}/67cf581f2cd59d1481ee3f70_Chris%20Walker%20Headshot%203%20WEB%20(sds1)%201%201.avif`;
-const CHRIS_DOTS = `${CDN}/67cf56c67421be3aaa11e34b_dots.avif`;
 const PASSETTO_LOGO = `${CDN}/67cf57c6256b02fb6e8199d7_Logo.svg`;
 const CHRIS_FRAME = `${CDN}/67cf5924b07303ca857f8ab0_Frame%202147227102.avif`;
 
@@ -205,25 +205,6 @@ const TEXT_TESTIMONIALS = [
   },
 ];
 
-// Scrolling small logos
-const SMALL_LOGOS_ROW1 = [
-  `${CDN}/677a451ee7a8f7ec31961a99_image%20(1).avif`,
-  `${CDN}/677a472a85338dcb91311cf6_image2.avif`,
-  `${CDN}/677a489b8c4e46abad0c5d86_image.avif`,
-  `${CDN}/677a4920132b0c763252cf88_image5.avif`,
-  `${CDN}/677a49274b4b7dca207bea28_image6.avif`,
-  `${CDN}/677a494640474787291c9393_image7.avif`,
-];
-
-const SMALL_LOGOS_ROW2 = [
-  `${CDN}/677a4a7c92b4b170ba3285a7_image8.avif`,
-  `${CDN}/677a4a7c32efbfd321c96c89_image9.avif`,
-  `${CDN}/677a4a7cd0c9a47a0a989b5e_image10.avif`,
-  `${CDN}/677a4a7c6f12ef31a56f02ac_image11.avif`,
-  `${CDN}/677a4a7c8c4e46abad0d7267_image12.avif`,
-  `${CDN}/677a4a7c21d40497cbc7ccb5_image13.avif`,
-];
-
 // Footer link columns
 const FOOTER_LINKS = {
   Services: [
@@ -323,9 +304,9 @@ export default function Home() {
         {/* ===== NAVBAR ===== */}
         <div className="border-b border-white/5 bg-bg-dark/80 backdrop-blur-md">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-            <a href="/" className="flex-shrink-0">
+            <Link href="/" className="flex-shrink-0">
               <img src={LOGO} alt="Amply Logo" className="h-6" />
-            </a>
+            </Link>
 
             <div className="hidden items-center gap-8 lg:flex">
               <button className="text-sm text-white/60 transition-colors hover:text-white">
@@ -921,9 +902,9 @@ export default function Home() {
           <div className="mb-12 grid gap-12 lg:grid-cols-[1fr_2fr]">
             {/* Left: Logo + Description + Social */}
             <div>
-              <a href="/">
+              <Link href="/">
                 <img src={LOGO} alt="Amply Logo" className="mb-6 h-6" />
-              </a>
+              </Link>
               <p className="mb-6 max-w-sm text-sm leading-relaxed text-white/40">
                 We are a team of Webflow, brand, and design experts passionate
                 about building sites that accelerate growth for B2B brands.
