@@ -62,6 +62,7 @@ All images are loaded from Amply's CDN (`cdn.prod.website-files.com`). Key asset
 
 ## Recent Changes
 
+- Reverted hero heading back to "Webflow websites that convert and scale for high-growth B2B"
 - Initial build: Created exact remake of Amply homepage (joinamply.com)
 - Updated font from Space Grotesk/DM Sans to Manrope
 - Updated color scheme from light theme to Amply's dark theme
