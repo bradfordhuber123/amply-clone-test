@@ -371,7 +371,7 @@ export default function Home() {
             <StarBadge text="Design and Webflow Agency" />
 
             <h1 className="mb-6 bg-gradient-to-r from-white/40 via-white to-white/40 bg-clip-text text-4xl font-medium leading-tight tracking-tight text-transparent md:text-5xl lg:text-6xl">
-              Webflow websites that convert and scale for high-growth B2B
+              B2B websites built to turn visitors into customers
             </h1>
 
             <p className="mx-auto mb-10 max-w-2xl text-base text-white/60 md:text-lg">
