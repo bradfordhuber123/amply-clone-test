@@ -21,6 +21,7 @@
 ## Pages
 
 - **Homepage** (`/`) - Full marketing landing page with hero, logo marquee, testimonials, services, comparison, work portfolio, video testimonials, text testimonials, CTA, and footer
+- **Marketing Report** (`/report`) - 9-slide interactive presentation: title, one slide per funnel stage (Paid Ads, AEO, SEO, Impressions, Site Traffic, Booked Calls, Conversion Rate), and a final full-funnel overview showing everything on one screen.
 
 ## Sections on Homepage
 
@@ -62,7 +63,8 @@ All images are loaded from Amply's CDN (`cdn.prod.website-files.com`). Key asset
 
 ## Recent Changes
 
-- Updated hero heading to "B2B websites built to turn visitors into customers"
+- Added Marketing Report slide presentation page (`/report`) with 5 interactive slides covering the full marketing funnel
+- Updated hero heading to "Webflow sites for B2b"
 - Initial build: Created exact remake of Amply homepage (joinamply.com)
 - Updated font from Space Grotesk/DM Sans to Manrope
 - Updated color scheme from light theme to Amply's dark theme
