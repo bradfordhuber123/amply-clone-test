@@ -22,6 +22,7 @@
 
 - **Homepage** (`/`) - Full marketing landing page with hero, logo marquee, testimonials, services, comparison, work portfolio, video testimonials, text testimonials, CTA, and footer
 - **Marketing Report** (`/report`) - 9-slide interactive presentation: title, one slide per funnel stage (Paid Ads, AEO, SEO, Impressions, Site Traffic, Booked Calls, Conversion Rate), and a final full-funnel overview showing everything on one screen.
+- **Analytics Dashboard** (`/dashboard`) - Full analytics reporting dashboard with sidebar navigation for each marketing channel (Paid Ads, AEO, SEO, Social Media, Site Traffic, Booked Calls, Conversion Rate). Features week-over-week toggling, KPI cards with trend indicators, comparison bar charts, and source breakdowns. Built with 4 weeks of reporting data.
 
 ## Sections on Homepage
 
@@ -63,6 +64,8 @@ All images are loaded from Amply's CDN (`cdn.prod.website-files.com`). Key asset
 
 ## Recent Changes
 
+- Added data editor panel to Analytics Dashboard - click "Edit Data" to update metrics for any week or add new weeks. Data saves to your browser automatically.
+- Added Analytics Dashboard (`/dashboard`) with sidebar navigation, week selector, KPI cards, trend arrows, and comparison line charts
 - Added Marketing Report slide presentation page (`/report`) with 5 interactive slides covering the full marketing funnel
 - Updated hero heading to "Webflow sites for B2b"
 - Initial build: Created exact remake of Amply homepage (joinamply.com)

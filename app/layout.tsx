@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { AgentationProvider } from "@/components/AgentationProvider";
 
@@ -25,6 +26,11 @@ export default function RootLayout({
       <body className="font-[family-name:var(--font-manrope)] antialiased">
         {children}
         <AgentationProvider />
+        <Script
+          src="https://www.ship.studio/inline-editor.js"
+          data-studio-id="proj_ckkutq98hqjp"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );
