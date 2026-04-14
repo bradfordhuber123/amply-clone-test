@@ -454,7 +454,7 @@ export default function Home() {
         <section className="relative overflow-hidden bg-bg-dark py-20 md:py-28">
           <div className="mx-auto max-w-6xl px-6">
             <h3 className="mb-12 text-center text-3xl font-medium text-white md:text-5xl">
-              Trusted by industry leaders
+              True Webflow b2b experts
             </h3>
 
             <div className="grid items-stretch gap-6 md:grid-cols-[3fr_2fr]">
